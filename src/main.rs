@@ -1,11 +1,12 @@
+#![allow(dead_code)]
+#![allow(unused_imports)]
+#![allow(unused_variables)]
+
 use rust_directory_structure::functions::*;
 use rust_directory_structure::structs::*;
 
 fn main() {
-    let alfa = AlfaStruct {
-        alfa_field_1: Some(String::from("Hello, Alfa")),
-        ..Default::default()
-    };
+    let alfa = AlfaStruct::new();
     dbg!(&alfa);
     alfa.alfa_method_1();
     bravo_function_1();
