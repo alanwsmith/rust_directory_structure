@@ -9,5 +9,11 @@ working with Rust under my belt so
 I expect there will be changes as I
 learn more.
 
-Here's the completed checklist of all
-my requirements:
+The post will be ID: 2luqezhaqyni
+
+---
+
+The `src` directory shows and tests
+all the features. The `_template` 
+directory is what I copy out of
+to make new projects.
