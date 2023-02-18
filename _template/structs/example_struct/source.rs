@@ -10,3 +10,11 @@ impl Default for ExampleStruct {
         }
     }
 }
+
+impl ExampleStruct {
+    pub fn new() -> ExampleStruct {
+        ExampleStruct {
+            ..Default::default()
+        }
+    }
+}
